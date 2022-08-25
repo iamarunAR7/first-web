@@ -1,0 +1,122 @@
+body{
+	background: #17202A ;
+}
+h1
+{
+   color: #ff9933;
+   font-family : Cursive;
+}
+h2
+{
+   color: #FBFCFC;
+   font-family: merlin;
+  }
+p
+{
+font-family :merlin;
+color: #FBFCFC;
+}
+.c1
+ {
+    color: ghostwhite;
+}
+.c2
+ {
+    color: ghostwhite;
+}
+.c3
+ {
+    color: ghostwhite;
+}
+.c4
+ {
+    color: ghostwhite;
+}
+.c7
+{ 
+   color: white;
+
+}
+
+ h2 {
+   color: whitesmoke;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+  h3{
+   color: darkgreen;
+  }
+  /* Animation property */
+button {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+ /* Animation property */
+button {
+  animation: wiggle 2s linear infinite;
+}
+
+ 
+.c8{
+   color: ghostwhite;
+}
+ .c9{
+   color: ghostwhite;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
